@@ -18,7 +18,7 @@ const Header = () => {
 						<Button>Hire me</Button>
 					</Link>
 
-					<div className="xl:hidden">mobile nav</div>
+					<div className="xl:hidden">{/* <MobileNav />> */}</div>
 				</div>
 			</div>
 		</header>

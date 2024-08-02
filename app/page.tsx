@@ -3,6 +3,7 @@ import {FiDownload} from 'react-icons/fi';
 
 import {Button} from '@/components/ui/button';
 import Social from '@/components/Social';
+import Photo from '@/components/Photo';
 
 export default function Home() {
 	return (
@@ -32,7 +33,9 @@ export default function Home() {
 						</div>
 					</div>
 
-					<div></div>
+					<div>
+						<Photo />
+					</div>
 				</div>
 			</div>
 		</section>
